@@ -84,7 +84,7 @@ function doConvert() {
   outputText +=
     num[2] != 0
       ? (oneToTwenty[Number(num[2])] || `${tenth[num[2][0]]} ${oneToTwenty[num[2][1]]}`) +
-        'hundred '
+        'Hundred Thousand '
       : '';
 
   outputText +=
