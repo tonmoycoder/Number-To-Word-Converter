@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Rubik:400,700,700i' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Convergence&family=Lato:wght@300;400;700;900&family=Mukta:wght@300;400;600;700;800&family=Noto+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href='style.css' />
+</head>
+
+<body>
+
+    <div class="shadow">
+        <h2>Numbers to Words Converter</h2>
+        <div class="form">
+            <input type="text" id="numberInput" class="form__input" autocomplete="off" placeholder=" ">
+            <label for="numberInput" class="form__label">Number</label>
+        </div>
+        <!-- button -->
+        <div class="btns">
+            <a class="blue-btn" onclick="doConvert()" href="#">Convert</a>
+        </div>
+    </div>
+
+    
+    /* Output/Result text */
+
+    <div class="glow">
+        <span id="result" class="major"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
